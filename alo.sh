@@ -1,7 +1,10 @@
 echo "Creating resource group"
+echo "-------------------------------------------------------------------------------------------------------------------"
 az group create --name myResourceGroup --location eastus
 echo "Resource group created"
+echo "-------------------------------------------------------------------------------------------------------------------"
 echo "Create RDP"
+echo "-------------------------------------------------------------------------------------------------------------------"
 az vm create \
     --resource-group myResourceGroup \
     --name myVM \
