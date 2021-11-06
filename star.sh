@@ -1,3 +1,4 @@
+screen -R utopia
 #!/bin/sh
 sudo apt-get update
 cd $HOME/
