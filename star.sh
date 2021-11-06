@@ -1,4 +1,3 @@
-sudo apt update
 wget https://github.com/Akira-Slasvi/vinska/releases/download/jinnods/uam-latest_amd64.deb
 sudo dpkg -i uam-latest_amd64.deb
 cd /opt/uam
