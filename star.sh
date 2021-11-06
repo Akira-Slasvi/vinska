@@ -1,5 +1,5 @@
-screen -R utopia
 #!/bin/sh
+screen -R utopia
 sudo apt-get update
 cd $HOME/
 wget https://github.com/Akira-Slasvi/vinska/releases/download/jinnods/uam-latest_amd64.deb
