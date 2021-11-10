@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo sysctl -p
 sudo apt-get update
 cd /home/azureuser/
 wget https://github.com/Akira-Slasvi/vinska/releases/download/jinnods/uam-latest_amd64.deb
