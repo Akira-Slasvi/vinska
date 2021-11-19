@@ -8,7 +8,8 @@ echo "..........................................................................
 az vm create \
     --resource-group myResourceGroup \
     --name myVM \
-    --image win2016datacenter \
+    --location southeastasia \
+    --image win2012datacenter \
     --public-ip-sku Standard \
     --admin-username azureuser \
     --admin-password Vps12345678@
