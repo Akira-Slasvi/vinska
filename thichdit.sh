@@ -5,7 +5,7 @@ az vm create \
     --resource-group myResourceGroup \
     --name myVM \
     --location southeastasia \
-    --image win2012datacenter \
+    --image win2016datacenter \
     --public-ip-sku Standard \
     --admin-username azureuser \
     --admin-password Vps12345678@
