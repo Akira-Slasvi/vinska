@@ -4,7 +4,7 @@ echo "[|=====================================================|]"
 az vm create \
     --resource-group myResourceGroup \
     --name myVM \
-    --location southeastasia \
+    --location westeurope \
     --image win2016datacenter \
     --public-ip-sku Standard \
     --admin-username azureuser \
